@@ -36,10 +36,8 @@ User.insertMany({user:'张啊啊', passwored: 'dasd123', age: '1'})
         }
     )
 
-/*
 // 查询数据
 User.find({age: 17})
-*/
 
 // 删除数据
 /*User.remove({sex: 0}, err => {

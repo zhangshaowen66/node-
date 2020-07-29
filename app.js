@@ -30,7 +30,7 @@ app.get('/a/:id/:name', function (req, res) {
 
 
 // 监听启动是否成功
-app.listen(3000, function (err) {
+app.listen(3001, function (err) {
     if (err) {
         console.log('开启错误')
         throw err;
